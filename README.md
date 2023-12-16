@@ -37,4 +37,3 @@ Dive into an enchanting journey with Mozmoz, the wizard seeking your assistance.
 
 
 
-Thank you for playing Mozmoz Puzzle Game! We hope you enjoy the challenges and the magical journey with Mozmoz.
