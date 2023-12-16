@@ -12,10 +12,6 @@ Mozmoz Puzzle Game is a captivating puzzle game designed to challenge and engage
 2. [Gameplay](#gameplay)
 3. [Puzzles](#puzzles)
 4. [Story](#story)
-5. [Screenshots](#screenshots)
-6. [How to Run](#how-to-run)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ## Getting Started
 
@@ -30,12 +26,13 @@ The game challenges players to solve algorithmic puzzles, unlocking navigation k
 ![p1](https://github.com/TayssirGh/mozmoz-puzzle-game/assets/126917969/281ffce7-f2d9-4bad-b069-ebf518692c70)
 ## Puzzles
 
-Mozmoz Puzzle Game features five algorithmic puzzles, each presenting a unique challenge. Solve each puzzle to obtain the necessary clues for the final immersive story puzzle. The puzzles are designed to encourage critical thinking and problem-solving skills.
+Mozmoz Puzzle Game features five algorithmic puzzles, each presenting a unique challenge. Solve each puzzle to obtain the necessary clues for the final immersive story puzzle. Mozmoz will provide hints and guidance at each step, adding an extra layer of depth to the gameplay.
 
 ## Story
 
 Dive into an enchanting journey with Mozmoz, the wizard seeking your assistance. The overarching narrative revolves around Mozmoz's quest to create an immortality potion to impress his wife. Uncover the story's depth by solving each puzzle and collecting essential clues.
 
+![oo](https://github.com/TayssirGh/mozmoz-puzzle-game/assets/126917969/640dc8f8-5600-4a7a-abcc-612802e3158d)
 
 
 
