@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="assets/ACM.png" type="image/x-icon">
+
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet" href="stylespage.css">
+
+        <title>PUZZLE 2</title>
+    </head>
+    <body>
+        
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="https://www.facebook.com/groups/1475050189462937" class="nav__logo">
+                    <img src="assets/ACM.png" alt="" class="nav__logo-img">
+                    <p>ACM ENISo Club</p> 
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="https://www.facebook.com/club.acm.eniso/" class="nav__link active-link"><img src="assets/facebook.png" class="icon"></a></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://www.linkedin.com/company/club-acm-eniso/" class="nav__link"><img src="assets/linkedin.png" class="icon"></a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://www.instagram.com/acm_eniso/" class="nav__link"><img src="assets/instagram.png" class="icon"></a>
+                        </li>
+
+                    
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                    <img src="assets/nav-img.png" alt="" class="nav__img">
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+            </nav>
+        </header>
+
+        <main class="main">
+            <img src="assets/f.png" alt="img" class="shape1" />
+            <img src="assets/r-2.png" alt="img3" class="shape2" />
+            <img src="assets/a-2.png" alt="img2" class="shape3" />
+            <img src="assets/U.png" alt="img9" class="shape4" />
+            <img src="assets/purplepush.png" alt="img7" class="shape5" />
+            <img src="assets/D.png" alt="img3" class="shape6" />
+            <img src="assets/broom.png" alt="img8" class="shape7" />
+            <img src="assets/diamond.png" alt="img5" class="shape8" />
+            <img src="assets/th.png" alt="img3" class="shape9" />
+            <img src="assets/cauldron.png" alt="img6" class="shape10" />
+            <p class="shapeCode">100</p>
+
+
+            
+            
+           
+            <section class="home container" id="home">
+               
+                
+                        <section class="swiper-slide">
+                            <div class="home__content grid">
+                                <div class="home__group">
+                                    <img src="assets/potion.png" alt="" class="home__img">
+                                    <div class="home__indicator"></div>
+    
+                                    <div class="home__details-img">
+                                        <h4 class="home__details-title">ACM Squad</h4>
+                                        <span class="home__details-subtitle">Be part of an amazing team</span>
+                                    </div>
+                                </div>
+    
+                                <div class="home__data">
+                                    <h3 class="home__subtitle">#ACM ENISo CLub</h3>
+                                    <h1 class="home__title">PUZZLE 2</h1>
+                                    <pre class="home__description">
+def puzzle_2(n,w,wt[],val[]):<br>
+   si (n=0 ou w=0) alors
+
+        retourner 0
+
+    si (wt[n-1] > w) alors
+
+        retourner(puzzle_2(n-1, w, wt, val))
+
+    sinon
+        retourner(maximum(<br>
+            val[n-1] + 
+
+          puzzle_2(n-1, W-wt[n-1], wt, val),
+
+        puzzle_2(n-1, W, wt, val))
+        ) <br><br>
+wt [] = {10, 20, 30}
+val [] = {60, 100, 120}
+output = puzzle_2(3, 50, wt, val)
+                                    </pre>
+                                    <div class="home__buttons">
+                                        <form>
+                                            <input id="thmas-input-text" type="text" placeholder="enter your output here ..." class="newsletter__input">
+                                            
+                                            <input id="thmas-button" type="button" class="button" value="Go to link">
+                                        </form>
+                                       
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <div class="result_box">
+                                <img img src="assets/surmoz.png" class="mush">
+                            
+                            <div class="complete_text">Welcome to #puzzle2 !</div>
+                            <div class="score_text">
+                               <p>Ah, you made it, my inquisitive friend!
+                                <br>
+                                Ever heard of ACM's brush with a formula? an almost-whispered secret!
+                                What if, in chasing their shadow, we chance upon a key of our own?
+                                <br>
+                                Now, focus your gaze on ACM's spectrum  <b>colors may hold more than meets the eye. </b> The next clue may just shine there.
+                               <br><br>
+Keep your senses sharp !
+                            </p>
+                            </div>
+                            <div class="buttons">
+                                <button class="start">Start Puzzle</button>
+                            </div>
+                        </div>
+                        
+                        
+                       
+            </section>
+            
+            </main>
+        <script src="index.js"></script>
+    </body>
+</html>
