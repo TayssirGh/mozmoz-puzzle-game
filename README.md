@@ -1,5 +1,6 @@
 # Mozmoz Puzzle Game
-
+## Description
+This project is a fun challenge for students at my college. It's like a wizard-themed puzzle journey where you solve five tricky problems with the help of Mozmoz, a friendly wizard.
 ## Overview
 
 Mozmoz Puzzle Game is a captivating puzzle game designed to challenge and engage students at Eniso. The game comprises five algorithmic puzzles, each offering a unique problem to solve. Players navigate through the puzzles using algorithm outputs and gather clues along the way. The ultimate goal is to assist the wizard Mozmoz in crafting an immortality potion to impress his crush.
